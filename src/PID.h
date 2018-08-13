@@ -18,6 +18,12 @@ public:
   double Kd;
 
   /*
+  Average Error
+  */
+  unsigned int iteration;
+  double total_error;
+
+  /*
   * Constructor
   */
   PID();
